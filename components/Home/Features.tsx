@@ -15,14 +15,12 @@ const featureData = [
       "Each crochet toy is lovingly handmade with care and attention to detail, ensuring a unique product for your loved ones.",
     icon: <FaHeart className="w-12 h-12 text-[#A67B5B] mx-auto" />,
   },
-
   {
     title: "New Arrivals",
     description:
       "Be the first to know about our latest creations and exclusive collections.",
     icon: <FaBoxOpen className="w-12 h-12 text-[#A67B5B] mx-auto" />,
   },
-
   {
     title: "Custom Orders",
     description:
@@ -41,7 +39,6 @@ const featureData = [
       "Our crochet toys are crafted from high-quality materials, ensuring softness and long-lasting beauty.",
     icon: <FaHandHoldingHeart className="w-12 h-12 text-[#A67B5B] mx-auto" />,
   },
-
   {
     title: "Eco-Friendly",
     description:
@@ -56,7 +53,7 @@ type Props = {
 
 const Features = ({ id }: Props) => {
   return (
-    <div id={id} className="py-20">
+    <div id={id} className="pt-30 pb-2"> {/* Increased pt-20 to pt-32 for more white space */}
       <div className="w-[80%] mx-auto grid grid-cols-1 mt-20 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {featureData.map((feature, index) => (
           <div
@@ -70,7 +67,7 @@ const Features = ({ id }: Props) => {
             <h1 className="mt-4 text-lg font-semibold text-gray-900 dark:text-white">
               {feature.title}
             </h1>
-            <p className="text-sm text-gray-600 mt-2  dark:text-white">
+            <p className="text-sm text-gray-600 mt-2 dark:text-white">
               {feature.description}
             </p>
           </div>
