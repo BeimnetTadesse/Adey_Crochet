@@ -17,8 +17,8 @@ Follow these steps to run the project locally:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/BeimnetTadesse/Adey_LandingPage.git
-cd Adey_LandingPage
+git clone https://github.com/BeimnetTadesse/Adey_Crochet.git
+cd Adey_Crochet
 ```
 
 ### 2️⃣ Install Dependencies
