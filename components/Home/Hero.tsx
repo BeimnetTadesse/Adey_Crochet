@@ -1,5 +1,5 @@
 import React from "react";
-import { FaShoppingBag } from "react-icons/fa";
+import Image from "next/image";
 
 type Props = {
   id?: string; // Add this line
@@ -56,10 +56,12 @@ const Hero = ({ id }: Props) => {
           data-aos-delay="150"
           className="mx-auto hidden xl:block"
         >
-          <img
+          <Image
             src="/images/hero1.png"
             alt="hero"
-            className="w-[430px] h-[430px] md:w-[400px] lg:w-[500px] xl:w-[600px] 2xl:w-[700px] "
+            width={400}  
+            height={400}  
+            className="w-[430px] h-[430px] md:w-[400px] lg:w-[500px] xl:w-[600px] 2xl:w-[700px]"
           />
         </div>
       </div>

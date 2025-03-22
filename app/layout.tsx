@@ -25,6 +25,7 @@ export default function RootLayout({
           <Provider>
             <ResponsiveNav />
             {children}
+            <Footer/>
           </Provider>
         </ThemeProvider>
       </body>

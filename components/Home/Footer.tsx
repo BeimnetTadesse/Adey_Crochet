@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 lg:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Logo and About */}
         <div>
-          <h2 className="text-3xl font-bold">Adey's</h2>
+          <h2 className="text-3xl font-bold">Adey&apos;s</h2>
           <p className="mt-4 text-gray-400">
            Our handmade pieces are more than just creations—they are a reflection
             of joy, comfort, and the beauty of handmade traditions.
@@ -61,7 +61,7 @@ const Footer = () => {
 
       {/* Bottom Footer */}
       <div className="mt-12 border-t border-gray-700 text-center py-4 text-gray-400">
-        <p>Copyright © 2025 Adey's. All rights reserved</p>
+        <p>Copyright © 2025 Adey&apos;s. All rights reserved</p>
       </div>
     </footer>
   );

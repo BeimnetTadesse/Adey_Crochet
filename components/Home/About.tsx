@@ -1,6 +1,6 @@
 import React from "react";
 import { FaCheck } from "react-icons/fa";
-
+import Image from "next/image";
 type Props = {
   reverse: boolean; // Controls the order of image and text
   title: string; // The title to display in the section
@@ -53,7 +53,7 @@ const About = ({
           data-aos-anchor-placement="top-center"
           className="flex-1"
         >
-          <img
+          <Image
             src={imageSrc}
             alt="About Us"
             width={380}
