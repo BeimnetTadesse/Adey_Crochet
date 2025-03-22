@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+** Adey Crochet Landing Page**
 
-## Getting Started
+This is a beautifully designed landing page for Adey Crochet, an online store showcasing handmade crochet toys and products. Built with Next.js znd TailwindCSS, this project ensures a seamless and interactive user experience.
 
-First, run the development server:
+✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Responsive and modern UI
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Smooth animations using AOS (Animate on Scroll)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Dark mode support
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Interactive contact form
 
-## Learn More
+Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+To run this project locally, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1️⃣ Clone the Repository
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+git clone https://github.com/BeimnetTadesse/Adey_LandingPage.git
+cd Adey_LandingPage
 
-## Deploy on Vercel
+2️⃣ Install Dependencies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm install  # or yarn install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3️⃣ Run the Development Server
+
+npm run dev  # or yarn dev
+
+Open http://localhost:3000 in your browser to see the result.
+
+🛠️ Technologies Used
+
+Next.js – React framework for fast rendering
+
+Tailwind CSS – For modern and responsive styling
+
+AOS (Animate on Scroll) – For smooth animations
+
+React Icons – For beautiful icons
+
+🌍 Deployment
+
+This project is deployed on Vercel for a fast and reliable experience.
+
+📩 Contact
+
+For any inquiries, feel free to reach out!
+
+Developer: Beimnet Tadesse📧 Email: beimnetasnin@gmail.com
