@@ -36,7 +36,7 @@ const ReviewSlider = () => {
           image="/images/c2.jpg"
           name="Abraham David"
           role="Founder Kaptan"
-          review="I was amazed by the quality of these crochet toys! The stitching is tight, and the materials feel premium. You can tell they are made with so much love and care. I’ve bought three so far, and I will definitely be coming back for more!"
+          review="These crochet toys are absolutely delightful! The craftsmanship is outstanding, with every detail carefully woven. They make for a perfect gift, and I couldn’t resist getting one for myself too. Truly a charming and high-quality find!"
         
         />
         <ReviewCard
